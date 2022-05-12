@@ -15,7 +15,7 @@ If you’d like to contribute to this project, please fill out the [self-assessm
 
 # To begin the exercise
 1.	Download and install [Zim](https://zim-wiki.org/downloads.html).
-2.	Extract the “hog.net” folder from the [hog.net.zip](hog.net.zip) file.
+2.	Extract the “hog.net” folder from the [notebook file](https://github.com/korniko98/hog.net/releases/download/v1.0/hog.net_v1.0.zip).
 3.	Run Zim, click “Add”, “Browse” and then choose the “hog.net” folder.
 4.	Follow the rest of the instructions in the [English](hog.net_instructions_english.docx) or [Hebrew](hog.net_instructions_hebrew.docx) exercise files.
 
