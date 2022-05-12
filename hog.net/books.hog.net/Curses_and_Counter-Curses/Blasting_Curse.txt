@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:44:22+02:00
+
+====== Blasting Curse ======
+The Blasting Curse (Confringo) is a curse that causes the target to explode. This curse is very dangerous and potentially even lethal.

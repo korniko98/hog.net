@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:21:16+02:00
+
+====== Reductor Curse ======
+The Reductor Curse (Reducto) blasts solid objects to pieces.

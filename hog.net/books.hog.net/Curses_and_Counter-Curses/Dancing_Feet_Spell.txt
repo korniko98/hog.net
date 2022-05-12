@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:39:41+02:00
+
+====== Dancing Feet Spell ======
+The Dancing Feet Spell (Tarantallegra) is a charm that makes a target's legs spasm wildly out of control, making it appear as though they are dancing. It works on both living and inanimate targets, so long as they have legs.

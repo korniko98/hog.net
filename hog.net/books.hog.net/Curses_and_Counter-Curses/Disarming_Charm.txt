@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:09:25+02:00
+
+====== Disarming Charm ======
+The Disarming Charm (Expelliarmus) forces whatever an opponent is holding to fly out of their hand. It is common to see this spell used in duels to make an opponent lose their wand.

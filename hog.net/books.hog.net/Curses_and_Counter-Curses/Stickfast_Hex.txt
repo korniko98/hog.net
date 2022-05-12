@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:33:09+02:00
+
+====== Stickfast Hex ======
+The Stickfast Hex (Colloshoo) is a hex that sticks the target's shoes to the ground, causing them to trip if they attempt to move.

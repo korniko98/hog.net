@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:17:56+02:00
+
+====== Impediment Jinx ======
+The Impediment Jinx (Impedimenta), also known as the Impediment Hex, hinders the movement of the target, slowing it down or stopping it in its tracks. It is a common spell used in duelling.

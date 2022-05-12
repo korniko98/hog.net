@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:31:02+02:00
+
+====== Full Body-Bind Curse ======
+The Full Body-Bind Curse (Petrificus Totalus), also known as the Body Freezing Spell, is a curse that temporarily paralyses the opponent.

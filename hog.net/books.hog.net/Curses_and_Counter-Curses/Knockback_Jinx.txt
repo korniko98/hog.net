@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:12:15+02:00
+
+====== Knockback Jinx ======
+The Knockback Jinx (Flipendo) knocks the target backwards. While prominently used for duelling, it can also be used to push heavy objects.

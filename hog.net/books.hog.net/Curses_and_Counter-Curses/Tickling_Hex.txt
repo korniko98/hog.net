@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:33:32+02:00
+
+====== Tickling Hex ======
+The Tickling Hex (Titillando), also known as the Tickling Spell, is a hex that tickles and subsequently weakens the target. The spell itself resembles purple hands that tickle the target.
