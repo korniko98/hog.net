@@ -1,9 +1,6 @@
 # hog.net
-A Harry Potter themed querying exercise based on Zim
 
-# Instructions
-
-Welcome to hog.net – the local network of Hogwarts School of Witchcraft and Wizardry. You have been tasked with answering the following research questions by querying the databases available on the local school network:
+Welcome to hog.net, a "Harry Potter" themed querying exercise based on [Zim](https://zim-wiki.org/), in which you explore the local network of Hogwarts School of Witchcraft and Wizardry. In this exercise, you are tasked with answering research questions by querying the databases available on the local school network:
 
 * books – soft copies of select books from the school library
 * comp – personal computers of hog.net users
@@ -12,11 +9,14 @@ Welcome to hog.net – the local network of Hogwarts School of Witchcraft and Wi
 * news – news reports and articles from the international wizarding community
 * users – information about hog.net users
 
-It is recommended that you read all questions prior to solving the exercise. You can fill in your answers in the text boxes in this document. Be sure to include references in footnotes and use proper estimative language (“probably”, “possibly”, etc.).
+Once you have completed the exercise, if you'd like someone to review your answers, please reach out on [Twitter](https://twitter.com/AmitaiCo).
 
-If you’d like to contribute to this project, please fill out the self-assessment and feedback form once you have completed the exercise.
+If you’d like to contribute to this project, please fill out the [self-assessment and feedback issue template](https://github.com/korniko98/hog.net/issues/new?assignees=&labels=feedback&template=self-assessment-and-feedback-questionnaire.md&title=Self-assessment+and+feedback+questionnaire).
 
 # To begin the exercise
-1.	Install Zim, and extract the “hog.net” folder from the “hog.net.zip” file.
-2.	Run Zim, click “Add”, “Browse” and then choose the “hog.net” folder.
-3.	Follow the rest of the instructions in this file.
+1.	Download and install [Zim](https://zim-wiki.org/downloads.html).
+2.	Extract the “hog.net” folder from the [hog.net.zip](hog.net.zip) file.
+3.	Run Zim, click “Add”, “Browse” and then choose the “hog.net” folder.
+4.	Follow the rest of the instructions in the [English](hog.net_instructions_english.docx) or [Hebrew](hog.net_instructions_hebrew.docx) exercise files.
+
+You can also watch a [demo](hog.net_demo_hebrew.mp4) (in Hebrew).
