@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:28:19+02:00
+
+====== Oppugno Jinx ======
+The Oppugno Jinx (Oppugno) directs an object or individual to attack the victim. This spell causes conjured creatures or other movable objects under the control of the caster to attack the target.

@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:08:46+02:00
+
+====== Bird-Conjuring Charm ======
+The Bird-Conjuring Charm (Avis) conjurs a flock of birds. The birds are shot from the caster's wand tip, accompanied by a loud blast that sounds like a gun being fired and smoke.

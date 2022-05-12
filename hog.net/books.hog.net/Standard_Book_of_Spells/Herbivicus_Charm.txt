@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-04-11T14:35:31+03:00
+
+====== Herbivicus Charm ======
+The Herbivicus Charm, also known as the Herbivicus Spell or Gardening Charm (Herbivicus) is used to rapidly increase the growth rate of plants and cause flowers to bloom.

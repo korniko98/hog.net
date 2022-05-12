@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-05T17:14:25+02:00
+
+====== Scouring Charm ======
+The Scouring Charm (Scourgify) is a cleaning charm used to make an object clean. It can also be used to clean out smaller infestations of bundimun.
