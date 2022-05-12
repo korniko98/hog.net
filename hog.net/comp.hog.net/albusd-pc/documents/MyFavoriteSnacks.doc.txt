@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2021-02-20T19:56:48+02:00
+
+====== MyFavoriteSnacks.doc ======
+
+The following have proven to be my favorite snacks over the years:
+1. Nachos
+2. Lemon Sherbert
+3. That Green Cream Minerva Once Prepared For Halloween
+4. Chocolate Mouse
+5. Cheerios
