@@ -1,0 +1,5004 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.14">
+    
+    
+      
+        <title>Azkaban.doc - hog.net</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.3de6f41f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ffa724">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="orange" data-md-color-accent="yellow">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#azkabandoc" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="hog.net" class="md-header__button md-logo" aria-label="hog.net" data-md-component="logo">
+      
+  <img src="../../../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            hog.net
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Azkaban.doc
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/korniko98/hog.net" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    korniko98/hog.net
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="hog.net" class="md-nav__button md-logo" aria-label="hog.net" data-md-component="logo">
+      
+  <img src="../../../../img/logo.png" alt="logo">
+
+    </a>
+    hog.net
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/korniko98/hog.net" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    korniko98/hog.net
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        User Guide
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Books.hog.net
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Books.hog.net" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Books.hog.net
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Advanced Potion Making
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Advanced Potion Making" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Advanced Potion Making
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Befuddlement_Draught/" class="md-nav__link">
+        Befuddlement Draught
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Draught_of_Peace/" class="md-nav__link">
+        Draught of Peace
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Elixir_to_Induce_Euphoria/" class="md-nav__link">
+        Elixir to Induce Euphoria
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Felix_Felicis/" class="md-nav__link">
+        Felix Felicis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Fire_Protection_Potion/" class="md-nav__link">
+        Fire Protection Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Girding_Potion/" class="md-nav__link">
+        Girding Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Oculus_Potion/" class="md-nav__link">
+        Oculus Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Polyjuice_Potion/" class="md-nav__link">
+        Polyjuice Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Advanced_Potion_Making/Potion_Ingredients/" class="md-nav__link">
+        Potion Ingredients
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Book of Potions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Book of Potions" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Book of Potions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Armadillo_Bile_Mixture/" class="md-nav__link">
+        Armadillo Bile Mixture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Beautification_Potion/" class="md-nav__link">
+        Beautification Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Doxycide/" class="md-nav__link">
+        Doxycide
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Herbicide_Potion/" class="md-nav__link">
+        Herbicide Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Shrinking_Solution/" class="md-nav__link">
+        Shrinking Solution
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Volubilis_Potion/" class="md-nav__link">
+        Volubilis Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Wiggenweld_Potion/" class="md-nav__link">
+        Wiggenweld Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Book_of_Potions/Wit-Sharpening_Potion/" class="md-nav__link">
+        Wit-Sharpening Potion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Curses and Counter Curses
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Curses and Counter Curses" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Curses and Counter Curses
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Blasting_Curse/" class="md-nav__link">
+        Blasting Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Cruciatus_Curse/" class="md-nav__link">
+        Cruciatus Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Curse_of_the_Bogies/" class="md-nav__link">
+        Curse of the Bogies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Dancing_Feet_Spell/" class="md-nav__link">
+        Dancing Feet Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Densaugeo/" class="md-nav__link">
+        Densaugeo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Disarming_Charm/" class="md-nav__link">
+        Disarming Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Full_Body-Bind_Curse/" class="md-nav__link">
+        Full Body-Bind Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Hair_Loss_Curse/" class="md-nav__link">
+        Hair Loss Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Impediment_Jinx/" class="md-nav__link">
+        Impediment Jinx
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Imperius_Curse/" class="md-nav__link">
+        Imperius Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Jelly-Legs_Curse/" class="md-nav__link">
+        Jelly-Legs Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Killing_Curse/" class="md-nav__link">
+        Killing Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Knockback_Jinx/" class="md-nav__link">
+        Knockback Jinx
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Leg-Locker_Curse/" class="md-nav__link">
+        Leg-Locker Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Pimple_Jinx/" class="md-nav__link">
+        Pimple Jinx
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Reductor_Curse/" class="md-nav__link">
+        Reductor Curse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Silencing_Charm/" class="md-nav__link">
+        Silencing Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Slug-Vomiting_Charm/" class="md-nav__link">
+        Slug-Vomiting Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Stickfast_Hex/" class="md-nav__link">
+        Stickfast Hex
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Tickling_Hex/" class="md-nav__link">
+        Tickling Hex
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Curses_and_Counter-Curses/Tongue-Tying_Curse/" class="md-nav__link">
+        Tongue-Tying Curse
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Fantastic Beasts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Fantastic Beasts" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Fantastic Beasts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/ACROMANTULA/" class="md-nav__link">
+        ACROMANTULA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/ASHWINDER/" class="md-nav__link">
+        ASHWINDER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/AUGUREY/" class="md-nav__link">
+        AUGUREY
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/BASILISK/" class="md-nav__link">
+        BASILISK
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/BILLYWIG/" class="md-nav__link">
+        BILLYWIG
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/BOWTRUCKLE/" class="md-nav__link">
+        BOWTRUCKLE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/BUNDIMUN/" class="md-nav__link">
+        BUNDIMUN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/CENTAUR/" class="md-nav__link">
+        CENTAUR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/CHIMAERA/" class="md-nav__link">
+        CHIMAERA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/CHIZPURFLE/" class="md-nav__link">
+        CHIZPURFLE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/CLABBERT/" class="md-nav__link">
+        CLABBERT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/CRUP/" class="md-nav__link">
+        CRUP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/DEMIGUISE/" class="md-nav__link">
+        DEMIGUISE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/DIRICAWL/" class="md-nav__link">
+        DIRICAWL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/DOXY/" class="md-nav__link">
+        DOXY
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/DRAGON/" class="md-nav__link">
+        DRAGON
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/DUGBOG/" class="md-nav__link">
+        DUGBOG
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/ERKLING/" class="md-nav__link">
+        ERKLING
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/ERUMPENT/" class="md-nav__link">
+        ERUMPENT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/FAIRY/" class="md-nav__link">
+        FAIRY
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/FIRE_CRAB/" class="md-nav__link">
+        FIRE CRAB
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/FLOBBERWORM/" class="md-nav__link">
+        FLOBBERWORM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/FWOOPER/" class="md-nav__link">
+        FWOOPER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/GHOUL/" class="md-nav__link">
+        GHOUL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/GLUMBUMBLE/" class="md-nav__link">
+        GLUMBUMBLE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/GNOME/" class="md-nav__link">
+        GNOME
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/GRAPHORN/" class="md-nav__link">
+        GRAPHORN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/GRIFFIN/" class="md-nav__link">
+        GRIFFIN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/GRINDYLOW/" class="md-nav__link">
+        GRINDYLOW
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/HIDEBEHIND/" class="md-nav__link">
+        HIDEBEHIND
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/HIPPOCAMPUS/" class="md-nav__link">
+        HIPPOCAMPUS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/HIPPOGRIFF/" class="md-nav__link">
+        HIPPOGRIFF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/HODAG/" class="md-nav__link">
+        HODAG
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/HORKLUMP/" class="md-nav__link">
+        HORKLUMP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/HORNED_SERPENT/" class="md-nav__link">
+        HORNED SERPENT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/IMP/" class="md-nav__link">
+        IMP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/JARVEY/" class="md-nav__link">
+        JARVEY
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/JOBBERKNOLL/" class="md-nav__link">
+        JOBBERKNOLL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/KAPPA/" class="md-nav__link">
+        KAPPA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/KELPIE/" class="md-nav__link">
+        KELPIE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/KNARL/" class="md-nav__link">
+        KNARL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/KNEAZLE/" class="md-nav__link">
+        KNEAZLE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/LEPRECHAUN/" class="md-nav__link">
+        LEPRECHAUN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/LETHIFOLD/" class="md-nav__link">
+        LETHIFOLD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/LOBALUG/" class="md-nav__link">
+        LOBALUG
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/MACKLED_MALACLAW/" class="md-nav__link">
+        MACKLED MALACLAW
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/MANTICORE/" class="md-nav__link">
+        MANTICORE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/MERPEOPLE/" class="md-nav__link">
+        MERPEOPLE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/MOKE/" class="md-nav__link">
+        MOKE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/MOONCALF/" class="md-nav__link">
+        MOONCALF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/MURTLAP/" class="md-nav__link">
+        MURTLAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/NIFFLER/" class="md-nav__link">
+        NIFFLER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/NOGTAIL/" class="md-nav__link">
+        NOGTAIL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/NUNDU/" class="md-nav__link">
+        NUNDU
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/OCCAMY/" class="md-nav__link">
+        OCCAMY
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/PHOENIX/" class="md-nav__link">
+        PHOENIX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/PIXIE/" class="md-nav__link">
+        PIXIE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/PLIMPY/" class="md-nav__link">
+        PLIMPY
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/POGREBIN/" class="md-nav__link">
+        POGREBIN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/PORLOCK/" class="md-nav__link">
+        PORLOCK
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/PUFFSKEIN/" class="md-nav__link">
+        PUFFSKEIN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/QUINTAPED/" class="md-nav__link">
+        QUINTAPED
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/RAMORA/" class="md-nav__link">
+        RAMORA
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/RED_CAP/" class="md-nav__link">
+        RED CAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/RE%E2%80%99EM/" class="md-nav__link">
+        RE’EM
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/RUNESPOOR/" class="md-nav__link">
+        RUNESPOOR
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/SALAMANDER/" class="md-nav__link">
+        SALAMANDER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/SEA_SERPENT/" class="md-nav__link">
+        SEA SERPENT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/SHRAKE/" class="md-nav__link">
+        SHRAKE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/SNALLYGASTER/" class="md-nav__link">
+        SNALLYGASTER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/SNIDGET/" class="md-nav__link">
+        SNIDGET
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/SPHINX/" class="md-nav__link">
+        SPHINX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/STREELER/" class="md-nav__link">
+        STREELER
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/TEBO/" class="md-nav__link">
+        TEBO
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/THUNDERBIRD/" class="md-nav__link">
+        THUNDERBIRD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/TROLL/" class="md-nav__link">
+        TROLL
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/UNICORN/" class="md-nav__link">
+        UNICORN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/WAMPUS_CAT/" class="md-nav__link">
+        WAMPUS CAT
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/WEREWOLF/" class="md-nav__link">
+        WEREWOLF
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/WINGED_HORSE/" class="md-nav__link">
+        WINGED HORSE
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Fantastic_Beasts/YETI/" class="md-nav__link">
+        YETI
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Magical Drafts and Potions
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Magical Drafts and Potions" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Magical Drafts and Potions
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Antidote_to_Common_Poisons/" class="md-nav__link">
+        Antidote to Common Poisons
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Cure_for_Boils/" class="md-nav__link">
+        Cure for Boils
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Draught_of_Living_Death/" class="md-nav__link">
+        Draught of Living Death
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Forgetfulness_Potion/" class="md-nav__link">
+        Forgetfulness Potion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Love_Potion_Antidote/" class="md-nav__link">
+        Love Potion Antidote
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Sleeping_Draught/" class="md-nav__link">
+        Sleeping Draught
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Swelling_Solution/" class="md-nav__link">
+        Swelling Solution
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Magical_Drafts_and_Potions/Wideye_Potion/" class="md-nav__link">
+        Wideye Potion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Standard Book of Spells
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Standard Book of Spells" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Standard Book of Spells
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Avifors_Spell/" class="md-nav__link">
+        Avifors Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Banishing_Charm/" class="md-nav__link">
+        Banishing Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Bird-Conjuring_Charm/" class="md-nav__link">
+        Bird-Conjuring Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Doubling_Charm/" class="md-nav__link">
+        Doubling Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Engorgement_Charm/" class="md-nav__link">
+        Engorgement Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Episkey/" class="md-nav__link">
+        Episkey
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Fire-Making_Spell/" class="md-nav__link">
+        Fire-Making Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Gouging_Spell/" class="md-nav__link">
+        Gouging Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Hardening_Charm/" class="md-nav__link">
+        Hardening Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Herbivicus_Charm/" class="md-nav__link">
+        Herbivicus Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Levitation_Charm/" class="md-nav__link">
+        Levitation Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Mending_Charm/" class="md-nav__link">
+        Mending Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Oppugno_Jinx/" class="md-nav__link">
+        Oppugno Jinx
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Patronus_Charm/" class="md-nav__link">
+        Patronus Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Revealing_Charm/" class="md-nav__link">
+        Revealing Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Reviving_Spell/" class="md-nav__link">
+        Reviving Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Scouring_Charm/" class="md-nav__link">
+        Scouring Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Severing_Charm/" class="md-nav__link">
+        Severing Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Shield_Charm/" class="md-nav__link">
+        Shield Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Shrinking_Charm/" class="md-nav__link">
+        Shrinking Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Skurge_Charm/" class="md-nav__link">
+        Skurge Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Snake-Vanishing_Spell/" class="md-nav__link">
+        Snake-Vanishing Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Snake_Summons_Spell/" class="md-nav__link">
+        Snake Summons Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Stunning_Spell/" class="md-nav__link">
+        Stunning Spell
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Summoning_Charm/" class="md-nav__link">
+        Summoning Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Tickling_Charm/" class="md-nav__link">
+        Tickling Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Unlocking_Charm/" class="md-nav__link">
+        Unlocking Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Vera_Verto/" class="md-nav__link">
+        Vera Verto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Wand-Extinguishing_Charm/" class="md-nav__link">
+        Wand-Extinguishing Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Wand-Lighting_Charm/" class="md-nav__link">
+        Wand-Lighting Charm
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../books.hog.net/Standard_Book_of_Spells/Water-Making_Spell/" class="md-nav__link">
+        Water-Making Spell
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Comp.hog.net
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Comp.hog.net" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Comp.hog.net
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Albusd pc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Albusd pc" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Albusd pc
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" type="checkbox" id="__nav_3_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_1">
+          Documents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Documents" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Documents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../albusd-pc/documents/MyFavoriteSnacks.doc/" class="md-nav__link">
+        MyFavoriteSnacks.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../albusd-pc/documents/SchoolLayout.ppt/" class="md-nav__link">
+        SchoolLayout.ppt
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_2">
+          Downloads
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Downloads" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Downloads
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../albusd-pc/downloads/Ilvermorny.pdf/" class="md-nav__link">
+        Ilvermorny.pdf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../albusd-pc/downloads/MinistryofMagic.pdf/" class="md-nav__link">
+        MinistryofMagic.pdf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../albusd-pc/downloads/MuggleTechnology.pdf/" class="md-nav__link">
+        MuggleTechnology.pdf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../albusd-pc/downloads/WandCores.pdf/" class="md-nav__link">
+        WandCores.pdf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../albusd-pc/downloads/WandWoods.pdf/" class="md-nav__link">
+        WandWoods.pdf
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Harryp pc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Harryp pc" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Harryp pc
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2_1" type="checkbox" id="__nav_3_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2_1">
+          Documents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Documents" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Documents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../harryp-pc/documents/AcceptanceLetter.pdf/" class="md-nav__link">
+        AcceptanceLetter.pdf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../harryp-pc/documents/Boggart.doc/" class="md-nav__link">
+        Boggart.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../harryp-pc/documents/Castelobruxo.doc/" class="md-nav__link">
+        Castelobruxo.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../harryp-pc/documents/Erised.doc/" class="md-nav__link">
+        Erised.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../harryp-pc/documents/Firebolt.doc/" class="md-nav__link">
+        Firebolt.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../harryp-pc/documents/KnightBus.doc/" class="md-nav__link">
+        KnightBus.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../harryp-pc/documents/Owls.doc/" class="md-nav__link">
+        Owls.doc
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Hermioneg pc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hermioneg pc" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Hermioneg pc
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_1" type="checkbox" id="__nav_3_3_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_1">
+          Documents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Documents" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Documents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Azkaban.doc
+      </a>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Beauxbatons.doc/" class="md-nav__link">
+        Beauxbatons.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cauldrons.doc/" class="md-nav__link">
+        Cauldrons.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Encabulator.doc/" class="md-nav__link">
+        Encabulator.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mahoutokoro.doc/" class="md-nav__link">
+        Mahoutokoro.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Portkeys.doc/" class="md-nav__link">
+        Portkeys.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../TimeTurner.doc/" class="md-nav__link">
+        TimeTurner.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Uagadou.doc/" class="md-nav__link">
+        Uagadou.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../WandLength.doc/" class="md-nav__link">
+        WandLength.doc
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4">
+          Lunal pc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Lunal pc" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          Lunal pc
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4_1" type="checkbox" id="__nav_3_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_4_1">
+          Documents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Documents" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Documents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lunal-pc/documents/HogwartsExpress.doc/" class="md-nav__link">
+        HogwartsExpress.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lunal-pc/documents/Nargles.doc/" class="md-nav__link">
+        Nargles.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lunal-pc/documents/SortingHat.doc/" class="md-nav__link">
+        SortingHat.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../lunal-pc/documents/Thestrals.doc/" class="md-nav__link">
+        Thestrals.doc
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_5">
+          Nevillel pc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Nevillel pc" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          Nevillel pc
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_1" type="checkbox" id="__nav_3_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_5_1">
+          Documents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Documents" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Documents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nevillel-pc/documents/Gobstones.doc/" class="md-nav__link">
+        Gobstones.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nevillel-pc/documents/GryffindorSword.doc/" class="md-nav__link">
+        GryffindorSword.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nevillel-pc/documents/HogwartsGhosts.doc/" class="md-nav__link">
+        HogwartsGhosts.doc
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6">
+          Ronw pc
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Ronw pc" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Ronw pc
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6_1" type="checkbox" id="__nav_3_6_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6_1">
+          Documents
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Documents" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_6_1">
+          <span class="md-nav__icon md-icon"></span>
+          Documents
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ronw-pc/documents/FlooNetwork.doc/" class="md-nav__link">
+        FlooNetwork.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ronw-pc/documents/GreatLake.doc/" class="md-nav__link">
+        GreatLake.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ronw-pc/documents/OrderofMerlin.doc/" class="md-nav__link">
+        OrderofMerlin.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ronw-pc/documents/SirCadagan.doc/" class="md-nav__link">
+        SirCadagan.doc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ronw-pc/documents/Werewolves.doc/" class="md-nav__link">
+        Werewolves.doc
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          E owl.hog.net
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="E owl.hog.net" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          E owl.hog.net
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Acceptance_Letter/" class="md-nav__link">
+        Acceptance Letter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Charms_Homework/" class="md-nav__link">
+        Charms Homework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Elective_Subjects/" class="md-nav__link">
+        Elective Subjects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Extra_Credit/" class="md-nav__link">
+        Extra Credit
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Hallo_Ron/" class="md-nav__link">
+        Hallo Ron
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Hogsmeade_Coupons/" class="md-nav__link">
+        Hogsmeade Coupons
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Knarl_in_Greenhouse/" class="md-nav__link">
+        Knarl in Greenhouse
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Lost_Rat/" class="md-nav__link">
+        Lost Rat
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Monthly_Update/" class="md-nav__link">
+        Monthly Update
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Mucus_Thief/" class="md-nav__link">
+        Mucus Thief
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Optimal_Shrinking/" class="md-nav__link">
+        Optimal Shrinking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/QQS_Newsletter/" class="md-nav__link">
+        QQS Newsletter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/RE_Beware/" class="md-nav__link">
+        RE Beware
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/RE_Groceries/" class="md-nav__link">
+        RE Groceries
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Request_for_Comment/" class="md-nav__link">
+        Request for Comment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Required_Reading/" class="md-nav__link">
+        Required Reading
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Scale_Model/" class="md-nav__link">
+        Scale Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Stock_Codes/" class="md-nav__link">
+        Stock Codes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/Turkish_Delays/" class="md-nav__link">
+        Turkish Delays
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../e-owl.hog.net/e-Owl_Maintenance/" class="md-nav__link">
+        e-Owl Maintenance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Floochat.hog.net
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Floochat.hog.net" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Floochat.hog.net
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/albusd-harryp/" class="md-nav__link">
+        albusd-harryp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/anthonyg-filiusf/" class="md-nav__link">
+        anthonyg-filiusf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/argusf-dobby/" class="md-nav__link">
+        argusf-dobby
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-1/" class="md-nav__link">
+        catan-1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-2/" class="md-nav__link">
+        catan-2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-3/" class="md-nav__link">
+        catan-3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-4/" class="md-nav__link">
+        catan-4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-5/" class="md-nav__link">
+        catan-5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-6/" class="md-nav__link">
+        catan-6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-7/" class="md-nav__link">
+        catan-7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-8/" class="md-nav__link">
+        catan-8
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/catan-9/" class="md-nav__link">
+        catan-9
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/choc-katieb/" class="md-nav__link">
+        choc-katieb
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/colinc-hermioneg/" class="md-nav__link">
+        colinc-hermioneg
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/cormacm-harryp/" class="md-nav__link">
+        cormacm-harryp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/dnd-1/" class="md-nav__link">
+        dnd-1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/dnd-2/" class="md-nav__link">
+        dnd-2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/ginervaw-colinc/" class="md-nav__link">
+        ginervaw-colinc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/ginervaw-hannaha/" class="md-nav__link">
+        ginervaw-hannaha
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/gregoryg-ronw/" class="md-nav__link">
+        gregoryg-ronw
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/gryffindor/" class="md-nav__link">
+        gryffindor
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/harryp-lunal/" class="md-nav__link">
+        harryp-lunal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/harryp-seamusf/" class="md-nav__link">
+        harryp-seamusf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/hermioneg-angelinaj/" class="md-nav__link">
+        hermioneg-angelinaj
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/lavenderb-lunal/" class="md-nav__link">
+        lavenderb-lunal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/lobby-1/" class="md-nav__link">
+        lobby-1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/lobby-2/" class="md-nav__link">
+        lobby-2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/lobby-3/" class="md-nav__link">
+        lobby-3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/lobby-4/" class="md-nav__link">
+        lobby-4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/lunal-hermioneg/" class="md-nav__link">
+        lunal-hermioneg
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/minervam-rubeush/" class="md-nav__link">
+        minervam-rubeush
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/mischiefmanaged/" class="md-nav__link">
+        mischiefmanaged
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/nevillel-harryp/" class="md-nav__link">
+        nevillel-harryp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/nevillel-ronw/" class="md-nav__link">
+        nevillel-ronw
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/pansyp-seamusf/" class="md-nav__link">
+        pansyp-seamusf
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/parvatip-lavenderb/" class="md-nav__link">
+        parvatip-lavenderb
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/pomonas-poppyp/" class="md-nav__link">
+        pomonas-poppyp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/ronw-harryp/" class="md-nav__link">
+        ronw-harryp
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/ronw-hermioneg/" class="md-nav__link">
+        ronw-hermioneg
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/seamusf-ronw/" class="md-nav__link">
+        seamusf-ronw
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/uptonogood/" class="md-nav__link">
+        uptonogood
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/vincentc-gregoryg/" class="md-nav__link">
+        vincentc-gregoryg
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../floochat.hog.net/weasleybunch/" class="md-nav__link">
+        weasleybunch
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          News.hog.net
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="News.hog.net" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          News.hog.net
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Bring_Back_Our_Baskets%21/" class="md-nav__link">
+        Bring Back Our Baskets!
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Enquiry_at_the_Ministry_Of_Magic/" class="md-nav__link">
+        Enquiry at the Ministry Of Magic
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Flying_Ford_Anglia_Mystifies_Muggles/" class="md-nav__link">
+        Flying Ford Anglia Mystifies Muggles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Gringotts%27_Security_Breached/" class="md-nav__link">
+        Gringotts' Security Breached
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Gringotts_Break-In_Latest/" class="md-nav__link">
+        Gringotts Break-In Latest
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Hogwarts_Opens/" class="md-nav__link">
+        Hogwarts Opens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Ministry_of_Magic_Employee_Scoops_Grand_Prize/" class="md-nav__link">
+        Ministry of Magic Employee Scoops Grand Prize
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Norway_vs._Ivory_Coast/" class="md-nav__link">
+        Norway vs. Ivory Coast
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Oldest_Wizard_Is_755/" class="md-nav__link">
+        Oldest Wizard Is 755
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Our_Chasers_Aren%27t_Cheating%21/" class="md-nav__link">
+        Our Chasers Aren't Cheating!
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Queen%27s_Corgi_Turns_Into_Hamster/" class="md-nav__link">
+        Queen's Corgi Turns Into Hamster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Return_of_Hans_the_Augurey/" class="md-nav__link">
+        Return of Hans the Augurey
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Strange_Creature_Spotted/" class="md-nav__link">
+        Strange Creature Spotted
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../news.hog.net/Women_Flock_to_Lockhart_Signing/" class="md-nav__link">
+        Women Flock to Lockhart Signing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Users.hog.net
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Users.hog.net" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Users.hog.net
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../users.hog.net/prof-dir/" class="md-nav__link">
+        prof-dir
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../users.hog.net/staff-dir/" class="md-nav__link">
+        staff-dir
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../users.hog.net/student-dir/" class="md-nav__link">
+        student-dir
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/korniko98/hog.net/edit/master/docs/comp.hog.net/hermioneg-pc/documents/Azkaban.doc.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="azkabandoc">Azkaban.doc</h1>
+<p>Azkaban has existed since the fifteenth century and was not originally a prison at all. The island in the North Sea upon which the first fortress was built never appeared on any map, Muggle or wizarding, and is believed to have been created, or enlarged, by magical means.<br />
+The fortress upon it was originally home to a little-known sorcerer who called himself Ekrizdis. Evidently extremely powerful, but of unknown nationality, Ekrizdis, who is believed to have been insane, was a practitioner of the worst kinds of Dark Arts. Alone in the middle of the ocean, he lured, tortured and killed Muggle sailors, apparently for pleasure, and only when he died, and the concealment charms he had cast faded away, did the Ministry of Magic realise that either island or building existed. Those who entered to investigate refused afterwards to talk of what they had found inside, but the least frightening part of it was that the place was infested with Dementors.  </p>
+<p>Many in authority thought Azkaban an evil place that was best destroyed. Others were afraid of what might happen to the Dementors infesting the building if they deprived them of their home. The creatures were already strong and impossible to kill; many feared a horrible revenge if they took away a habitat where they appeared to thrive. The very walls of the building seemed steeped in misery and pain, and the Dementors were determined to cling to it. Experts who had studied buildings built with and around Dark magic contended that Azkaban might wreak its own revenge upon anybody attempting to destroy it. The fortress was therefore left abandoned for many years, a home to continually breeding Dementors.  </p>
+<p>Once the International Statute of Secrecy had been imposed, the Ministry of Magic felt that the small wizarding prisons that existed up and down the country in various towns and villages posed a security risk, because attempts by incarcerated witches and wizards to break out often led to undesirable bangs, smells and light shows. A purpose-built prison, located on some remote Hebridean island, was preferred, and plans had been drawn up when Damocles Rowle became Minister for Magic.  </p>
+<p>Rowle was an authoritarian who had risen to power on an anti-Muggle agenda, capitalising on the anger felt by much of the wizarding community at being forced to go underground. Sadistic by nature, Rowle scrapped the plans for the new prison at once and insisted on using Azkaban. He claimed that the Dementors living there were an advantage: they could be harnessed as guards, saving the Ministry time, trouble and expense.  </p>
+<p>In spite of opposition from many wizards, among them experts on both Dementors and buildings with Azkaban’s kind of Dark history, Rowle carried out his plan and soon a steady trickle of prisoners had been placed there. None ever emerged. If they were not mad and dangerous before being placed in Azkaban, they swiftly became so.  </p>
+<p>Rowle was succeeded by Perseus Parkinson, who was likewise pro-Azkaban. By the time that Eldritch Diggory took over as Minister for Magic, the prison had been operating for fifteen years. There had been no breakouts and no breaches of security. The new prison seemed to be working well. It was only when Diggory went to visit that he realised exactly what conditions inside were like. Prisoners were mostly insane and a graveyard had been established to accommodate those that died of despair.  </p>
+<p>Back in London, Diggory established a committee to explore alternatives to Azkaban, or at least to remove the Dementors as guards. Experts explained to him that the only reason the Dementors were (mostly) confined to the island was that they were being provided with a constant supply of souls on which to feed. If deprived of prisoners, they were likely to abandon the prison and head for the mainland.  </p>
+<p>This advice notwithstanding, Diggory had been so horrified by what he had seen inside Azkaban that he pressed the committee to find alternatives. Before they could reach any decision, however, Diggory caught dragon pox and died. From that time until the advent of Kingsley Shacklebolt, no Minister ever seriously considered closing Azkaban. They turned a blind eye to the inhumane conditions inside the fortress, permitted it to be magically enlarged and expanded and rarely visited, due to the awful effects of entering a building populated by thousands of Dementors. Most justified their attitude by pointing to the prison’s perfect record at keeping prisoners locked up.  </p>
+<p>Nearly three centuries passed before that record was broken. A young man was successfully smuggled out of the prison when his visiting mother exchanged places with him, something that the blind and loveless Dementors could not detect and would have never expected. This escape was followed by another, still more ingenious and impressive, when Sirius Black managed to evade the Dementors single-handed.  </p>
+<p>The weakness of the prison was demonstrated amply over the next few years, when two mass breakouts occurred, both involving Death Eaters. By this time the Dementors had given their allegiance to Lord Voldemort, who could guarantee them scope and freedom hitherto un-tasted. Albus Dumbledore was one who had long disapproved of the use of Dementors as guards, not only because of the inhumane treatment of the prisoners in their power, but because he foresaw the possible shift in loyalties of such Dark creatures.  </p>
+<p>Under Kingsley Shacklebolt, Azkaban was purged of Dementors. While it remains in use as a prison, the guards are now Aurors, who are regularly rotated from the mainland. There has been no breakout since this new system was introduced.  </p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../../harryp-pc/documents/Owls.doc/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Owls.doc" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Owls.doc
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Beauxbatons.doc/" class="md-footer__link md-footer__link--next" aria-label="Next: Beauxbatons.doc" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Beauxbatons.doc
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../../..", "features": [], "search": "../../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.c2e1ee47.min.js"></script>
+      
+    
+  </body>
+</html>
