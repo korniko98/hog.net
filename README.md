@@ -13,13 +13,15 @@ Once you have completed the exercise, if you'd like someone to review your answe
 
 If you’d like to contribute to this project, please fill out the [self-assessment and feedback issue template](https://github.com/korniko98/hog.net/issues/new?assignees=&labels=feedback&template=self-assessment-and-feedback-questionnaire.md&title=Self-assessment+and+feedback+questionnaire).
 
-# To begin the exercise
+# Latest version
 
-**It is recommended to use the browser-based version, available [here](https://korniko98.github.io/hog.net/).**
+**Please use the browser-based version, available [here](https://korniko98.github.io/hog.net/).**
+
+# Old version
 
 1.	Download and install [Zim](https://zim-wiki.org/downloads.html).
 2.	Extract the “hog.net” folder from the [notebook file](https://github.com/korniko98/hog.net/releases/download/v1.0/hog.net_v1.0.zip).
 3.	Run Zim, click “Add”, “Browse” and then choose the “hog.net” folder.
 4.	Follow the rest of the instructions in the [English](hog.net_instructions_english.docx) or [Hebrew](hog.net_instructions_hebrew.docx) exercise files.
 
-You can also watch a [demo](hog.net_demo_hebrew.mp4) (in Hebrew).
+You can also watch a [demonstration](https://youtu.be/MPP2cIxj_Fg) of the old version in action (in Hebrew).
