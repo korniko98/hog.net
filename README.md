@@ -14,6 +14,9 @@ Once you have completed the exercise, if you'd like someone to review your answe
 If you’d like to contribute to this project, please fill out the [self-assessment and feedback issue template](https://github.com/korniko98/hog.net/issues/new?assignees=&labels=feedback&template=self-assessment-and-feedback-questionnaire.md&title=Self-assessment+and+feedback+questionnaire).
 
 # To begin the exercise
+
+**It is recommended to use the browser-based version, available [here](https://korniko98.github.io/hog.net/).**
+
 1.	Download and install [Zim](https://zim-wiki.org/downloads.html).
 2.	Extract the “hog.net” folder from the [notebook file](https://github.com/korniko98/hog.net/releases/download/v1.0/hog.net_v1.0.zip).
 3.	Run Zim, click “Add”, “Browse” and then choose the “hog.net” folder.
