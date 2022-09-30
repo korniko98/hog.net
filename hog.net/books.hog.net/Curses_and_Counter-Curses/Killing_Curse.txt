@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:48:23+02:00
-
-====== Killing Curse ======
-An unforgivable curse, the Killing Curse (Avada Kedavra) causes instantaneous and painless death, without causing any injury to the body, and without any trace of violence.

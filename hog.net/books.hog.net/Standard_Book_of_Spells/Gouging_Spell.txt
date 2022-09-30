@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:17:01+02:00
-
-====== Gouging Spell ======
-The Gouging Spell (Defodio) is used to gouge out specific areas of material, such as earth or stone.

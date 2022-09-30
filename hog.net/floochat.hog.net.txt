@@ -1,5 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-01-29T18:19:47+02:00
-
-====== floochat.hog.net ======

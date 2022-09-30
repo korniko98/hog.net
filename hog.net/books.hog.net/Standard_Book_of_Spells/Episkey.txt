@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:45:56+02:00
-
-====== Episkey ======
-Episkey is the incantation of a healing charm that heals relatively minor injuries such as broken noses, toes, and split lips.

@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:23:54+02:00
-
-====== Reviving Spell ======
-The Reviving Spell (Rennervate) is a charm that awakens whomever the caster's wand is pointed at. Consequently, it serves as the counter-charm to the Stunning Spell.

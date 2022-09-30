@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:27:51+02:00
-
-====== Doubling Charm ======
-The Doubling Charm (Geminio) is a charm used to duplicate an object, creating an exact replica of that object. It can also be used to curse an object into multiplying repeatedly when touched, where it is called the Gemino Curse.

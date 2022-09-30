@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:47:03+02:00
-
-====== Cruciatus Curse ======
-An unforgivable curse, the Cruciatus Curse (Crucio), also known as the Torture Curse, inflicts intense, excruciating pain on the victim.

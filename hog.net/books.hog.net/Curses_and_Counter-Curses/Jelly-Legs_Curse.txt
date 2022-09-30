@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:31:27+02:00
-
-====== Jelly-Legs Curse ======
-The Jelly-Legs Curse, also known as the Jelly-Legs Jinx (Locomotor Wibbly) is a dark charm that causes the victim's legs to collapse as if they were turned to jelly.

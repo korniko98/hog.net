@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:22:33+02:00
-
-====== Shrinking Charm ======
-The Shrinking Charm (Reducio) causes an object to shrink. It is the counter-charm to the Engorgement Charm, causing enlarged objects to return to their original size.

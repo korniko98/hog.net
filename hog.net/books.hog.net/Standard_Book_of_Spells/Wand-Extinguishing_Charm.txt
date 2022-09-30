@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:13:00+02:00
-
-====== Wand-Extinguishing Charm ======
-The Wand-Extinguishing Charm (Nox) causes the light at the end of the caster's wand to be extinguished, thus acting as the counter-charm to the Wand-Lighting Charm (Lumos).

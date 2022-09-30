@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:28:48+02:00
-
-====== Tickling Charm ======
-The Tickling Charm (Rictusempra) causes the target to buckle with laughter, weakening them.

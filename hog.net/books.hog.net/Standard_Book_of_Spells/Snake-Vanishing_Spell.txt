@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:41:50+02:00
-
-====== Snake-Vanishing Spell ======
-The Snake-Vanishing Spell (Vipera Evanesca) is a transfiguration spell that vanishes snakes. As such, it can be used as a counter-spell for the Snake Summons Spell.

@@ -1,0 +1,31 @@
+# lunal-pc
+
+## Documents 
+
+### HogwartsExpress.doc  
+As we know from early historical accounts, and from the evidence of early woodcuts and engravings, Hogwarts students used to arrive at school in any manner that caught their fancy. Some rode broomsticks (a difficult feat when carrying trunks and pets); others commandeered enchanted carts and, later, carriages; some attempted to Apparate (often with disastrous effects, as the castle and grounds have always been protected with Anti-Apparition Charms), others rode a variety of magical creatures.  
+In spite of the accidents attendant on these various modes of magical transport, not to mention the annual Muggle sightings of vast numbers of airborne wizards travelling northwards, it remained the responsibility of parents to convey their children to school, right up until the imposition of the International Statute of Secrecy in 1692. At this point, it became a matter of urgency to find some more discreet method of transporting hundreds of wizarding children from all over Britain to their secret school in the Highlands of Scotland.  
+  
+Portkeys were therefore arranged at collecting points all over Britain. The logistics caused problems from the start. Up to a third of students would fail to arrive every year, having missed their time slot, or been unable to find the unobtrusive enchanted object that would transport them to their school. There was also the unfortunate fact that many children were (and are) ‘Portkey-sick’, and the hospital wing was frequently full to bursting for the first few days of every year, while susceptible students overcame their hysterics and nausea.  
+  
+While admitting that Portkeys were not an ideal solution to the problem of school transportation, the Ministry of Magic failed to find an acceptable alternative. A return to the unregulated travel of the past was impossible, and yet a more secure route into the school (for instance, permitting a fireplace that might be officially entered by Floo powder) was strongly resisted by successive Headmasters, who did not wish the security of the castle to be breached.  
+  
+A daring and controversial solution to the thorny problem was finally suggested by Minister for Magic Ottaline Gambol, who was much intrigued by Muggle inventions and saw the potential in trains. Where exactly the Hogwarts Express came from has never been conclusively proven, although it is a fact that there are secret records at the Ministry of Magic detailing a mass operation involving one hundred and sixty-seven Memory Charms and the largest ever mass Concealment Charm performed in Britain. The morning after these alleged crimes, a gleaming scarlet steam engine and carriages astounded the villagers of Hogsmeade (who had also not realised they had a railway station), while several bemused Muggle railway workers down in Crewe spent the rest of the year grappling with the uncomfortable feeling that they had mislaid something important.  
+  
+The Hogwarts Express underwent several magical modifications before the Ministry approved it for school use. Many pure-blood families were outraged at the idea of their children using Muggle transport, which they claimed was unsafe, insanitary and demeaning; however, as the Ministry decreed that students either rode the train or did not attend school, the objections were swiftly silenced.  
+  
+### Nargles.doc  
+Nargles are known to infest mistletoe, and to be mischievous thieves, often stealing shoes.  
+Butterbeer cork can be used to keep Nargles away.  
+Quality Narglecide is an effective measure against them as well.  
+  
+### SortingHat.doc  
+The famous Hogwarts Sorting Hat gives an account of its own genesis in a series of songs sung at the beginning of each school year. Legend has it that the hat once belonged to one of the four founders, Godric Gryffindor, and that it was jointly enchanted by all four founders to ensure that students would be sorted into their eponymous houses, which would be selected according to each founder’s particular preferences in students.  
+The Sorting Hat is one of the cleverest enchanted objects most witches and wizards will ever meet. It literally contains the intelligence of the four founders, can speak (through a rip near its brim) and is skilled at Legilimency, which enables it to look into the wearer’s head and divine his or her capabilities or mood. It can even respond to the thoughts of the wearer.  
+The Sorting Hat is notorious for refusing to admit it has made a mistake in its sorting of a student. On those occasions when Slytherins behave altruistically or selflessly, when Ravenclaws flunk all their exams, when Hufflepuffs prove lazy yet academically gifted and when Gryffindors exhibit cowardice, the Hat steadfastly backs its original decision. On balance, however, the Hat has made remarkably few errors of judgement over the many centuries it has been at work.  
+  
+### Thestrals.doc  
+Manifesting as black, skeletal, bat-winged horses, but invisible to all who have never been truly touched by death, Thestrals have a somewhat macabre reputation. In centuries past the sight of them was regarded as unlucky; they have been hunted and ill treated for many years, their true nature (which is kindly and gentle) being widely misunderstood. Thestrals are not marks of ill omen, nor (their spooky appearance notwithstanding) are they in any way threatening to humans, always allowing for the fright that the first sight of them tends to give the observer.  
+Being able to see Thestrals is a sign that the beholder has witnessed death, and gained an emotional understanding of what death means. It is unsurprising that it took a long time for their significance to be properly understood, because the precise moment when such knowledge dawns varies greatly from person to person.  
+While somewhat intimidating in appearance, these carnivorous horses are emblematic of a journey to another dimension, and reward all who trust them with faithfulness and obedience. Thestrals are native to the British Isles and Ireland, though they have been spotted in parts of France and the Iberian Peninsula; they seem to have an association with wizards who descend from the horse-loving Celtic peoples. Other parts of the world have their own equivalent to Thestrals.  
+  

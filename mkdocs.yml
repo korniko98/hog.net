@@ -1,0 +1,21 @@
+site_name: hog.net
+repo_url: https://github.com/korniko98/hog.net
+repo_name: korniko98/hog.net
+use_directory_urls: true
+edit_uri: ""
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  palette:
+    scheme: slate
+    accent: yellow
+    primary: orange
+  features:
+    - search.highlight
+    - navigation.instant
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys

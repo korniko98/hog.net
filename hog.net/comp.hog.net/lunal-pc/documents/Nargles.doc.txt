@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-04-16T10:55:51+03:00
-
-====== Nargles.doc ======
-Nargles are known to infest mistletoe, and to be mischievous thieves, often stealing shoes.
-Butterbeer cork can be used to keep Nargles away.
-Quality Narglecide is an effective measure against them as well.

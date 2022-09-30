@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:13:55+02:00
-
-====== Skurge Charm ======
-The Skurge Charm (Skurge) can be used to clean up the sticky green ectoplasm created by passing ghosts. It can also be used to frighten spirits, such as the aforementioned ghosts, as well as poltergeists. It is not be confused with the more versatile Scouring Charm.

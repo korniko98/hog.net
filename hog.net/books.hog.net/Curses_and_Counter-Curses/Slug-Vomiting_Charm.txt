@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:45:25+02:00
-
-====== Slug-Vomiting Charm ======
-The Slug-vomiting Charm (Slugulus Eructo) is a curse that forces the victim to burp up slugs.

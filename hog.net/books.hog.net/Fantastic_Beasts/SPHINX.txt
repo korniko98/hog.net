@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-01-30T16:18:30+02:00
-
-====== SPHINX ======
-M.O.M. Classification: XXXX
-
-The Egyptian sphinx has a human head on a lion’s body. For over a thousand years it has been used by witches and wizards to guard valuables and secret hideaways. Highly intelligent, the sphinx delights in puzzles and riddles. It is usually dangerous only when what it is guarding is threatened.

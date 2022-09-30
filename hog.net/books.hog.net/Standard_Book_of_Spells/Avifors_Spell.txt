@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:14:50+02:00
-
-====== Avifors Spell ======
-The Avifors Spell (Avifors) is a transfiguration spell that transforms small objects and creatures into birds.

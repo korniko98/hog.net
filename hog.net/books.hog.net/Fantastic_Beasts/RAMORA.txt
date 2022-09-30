@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-01-30T16:17:54+02:00
-
-====== RAMORA ======
-M.O.M. Classification: XX
-
-The Ramora is a silver fish found in the Indian Ocean. Powerfully magical, it can anchor ships and is a guardian of seafarers. The Ramora is highly valued by the International Confederation of Wizards, which has set many laws in place to protect the Ramora from wizard poachers.

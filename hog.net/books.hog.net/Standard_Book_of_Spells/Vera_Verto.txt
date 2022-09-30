@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-05T17:49:24+02:00
-
-====== Vera Verto ======
-Vera Verto is the incantation of a transfiguration spell used to transform an animal into a water goblet. Animals susceptible to this spell are specifically aves, rats, and felines.

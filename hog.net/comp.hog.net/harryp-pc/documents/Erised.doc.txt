@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.6
-Creation-Date: 2021-02-26T22:58:17+02:00
-
-====== Erised.doc ======
-The Mirror of Erised is a very old device. Nobody knows who created it, or how it came to be at Hogwarts School. A succession of teachers have brought back interesting artefacts from their travels, so it might have arrived at the castle in this casual manner, either because the teacher knew how it worked and was intrigued by it, or because they did not understand it and wished to ask their colleagues’ opinions.
-The Mirror of Erised is one of those magical artefacts that seems to have been created in a spirit of fun (whether innocent or malevolent is a matter of opinion), because while it is much more revealing than a normal mirror, it is interesting rather than useful. Only after Professor Dumbledore makes key modifications to the mirror (which has been languishing in the Room of Requirement for a century or so before he brings it out and puts it to work) does it become a superb hiding place, and the final test for the impure of heart.
-The mirror’s inscription (‘erised stra ehru oyt ube cafru oyt on wohsi’) must be read backwards to show its true purpose.
