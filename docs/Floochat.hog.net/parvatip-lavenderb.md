@@ -24,3 +24,5 @@
 <parvatip\> must have flown away by now  
 <lavenderb\> i wonder what it was!  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

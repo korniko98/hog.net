@@ -25,3 +25,5 @@ To brew the Draught of Peace, follow these steps:
 17. Simmering lowers heat. Add exactly 7 drops of hellebore.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

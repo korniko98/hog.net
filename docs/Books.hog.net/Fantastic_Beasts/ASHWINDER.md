@@ -7,3 +7,5 @@ The Ashwinder lives for only an hour and during that time seeks a dark and seclu
   
 Ashwinders are found worldwide.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

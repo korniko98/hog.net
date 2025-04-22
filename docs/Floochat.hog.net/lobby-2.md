@@ -9,3 +9,5 @@
 *lunal dances :D|-<*  
 *lunal dances :D/-<*  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

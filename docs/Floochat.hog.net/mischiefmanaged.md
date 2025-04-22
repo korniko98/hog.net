@@ -6,3 +6,5 @@
 <fredw\> a whole clump of messed up files, the list goes on  
 <ronw\> RIP fred and george  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

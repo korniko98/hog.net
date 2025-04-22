@@ -27,3 +27,5 @@ The following is a list of all core and elective classes - please choose your el
   
 -Prof. McGonagall  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

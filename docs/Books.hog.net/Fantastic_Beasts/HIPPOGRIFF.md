@@ -5,3 +5,5 @@ The Hippogriff is native to Europe, though now found worldwide. It has the head 
   
 The Hippogriff burrows for insects but will also eat birds and small mammals. Breeding Hippogriffs build nests upon the ground into which they will lay a single large and fragile egg, which hatches within twenty-four hours. The fledgling Hippogriff should be ready to fly within a week, though it will be a matter of months before it is able to accompany its parent on longer journeys.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

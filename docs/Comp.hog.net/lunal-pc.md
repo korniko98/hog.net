@@ -29,3 +29,5 @@ Manifesting as black, skeletal, bat-winged horses, but invisible to all who have
 Being able to see Thestrals is a sign that the beholder has witnessed death, and gained an emotional understanding of what death means. It is unsurprising that it took a long time for their significance to be properly understood, because the precise moment when such knowledge dawns varies greatly from person to person.  
 While somewhat intimidating in appearance, these carnivorous horses are emblematic of a journey to another dimension, and reward all who trust them with faithfulness and obedience. Thestrals are native to the British Isles and Ireland, though they have been spotted in parts of France and the Iberian Peninsula; they seem to have an association with wizards who descend from the horse-loving Celtic peoples. Other parts of the world have their own equivalent to Thestrals.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

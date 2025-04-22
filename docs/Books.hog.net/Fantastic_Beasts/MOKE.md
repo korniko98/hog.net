@@ -5,3 +5,5 @@ The Moke is a silver-green lizard reaching up to ten inches in length and is fou
   
 Moke skin is highly prized among wizards for use as moneybags and purses, as the scaly material will contract at the approach of a stranger, just as its owner did; Moke-skin moneybags are therefore very difficult for thieves to locate.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

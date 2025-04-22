@@ -16,3 +16,5 @@ The following recipe can be followed to brew this potion:
 10. Finally, wave your wand over the cauldron to finish the potion.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

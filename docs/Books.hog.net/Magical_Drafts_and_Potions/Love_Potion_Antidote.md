@@ -16,3 +16,5 @@ The recipe to make the Love Potion Antidote is as follows:
 12. Allow to simmer till it turns pink.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

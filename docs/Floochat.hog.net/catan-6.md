@@ -145,3 +145,5 @@
 <nevillel\> and now you're doing rather well :D  
 <Server\> nevillel rolled a 1 and a 4.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

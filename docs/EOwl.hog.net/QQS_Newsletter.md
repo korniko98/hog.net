@@ -14,3 +14,5 @@ Visit our website at [www.qqs_diagon.co.uk](www.qqs_diagon.co.uk) for more infor
   
 To unsubscribe, please reply to this e-owl with the subject "unsubcribe".  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

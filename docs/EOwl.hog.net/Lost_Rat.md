@@ -8,3 +8,5 @@ My rat Scabbers has gone missing - if anyone sees him please let me know!
   
 -Ron  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

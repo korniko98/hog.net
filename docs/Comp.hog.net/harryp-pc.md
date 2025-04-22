@@ -111,3 +111,5 @@ The mystical association between the name and the human who bears it has long be
 Should a witch or wizard not wish to be sent letters (or tracked in any other way), he or she will have to resort to Repelling, Disguising or Masking Spells, of which there are a great range. It is possible to protect yourself from all correspondence, or all but that carried by a specific owl. If a witch or wizard is determined not to be contactable by a persistent creditor or ex-boy or girlfriend, they might try a masking spell specific to that person, but this ploy is easily circumnavigated by asking somebody else to send the owl. In general, it takes strong protective magic, and a willingness to forego a lot of birthday cards, to avoid the attentions of Owl Post.  
 Trained owls are expensive, and it is quite usual for a wizarding family to share a single owl, or else only use Postal owls.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

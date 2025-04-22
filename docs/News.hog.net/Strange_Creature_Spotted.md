@@ -6,3 +6,5 @@ BY RITA SKEETER
 *In her excitement, Ms. Brown unfortunately didn't describe the encounter in much detail, and thus our readers may have to simply guess what sort of animal it may have been.*  
 *More updates to follow as we interview additional students and faculty of Hogwarts.*  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

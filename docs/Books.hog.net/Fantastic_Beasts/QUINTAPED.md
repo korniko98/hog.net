@@ -9,3 +9,5 @@ Legend has it that the Isle of Drear was once populated by two wizarding familie
   
 Whether this tale is true or not will never be known. Certainly there are no surviving McCliverts or MacBoons to tell us what happened to their ancestors. The Quintapeds cannot talk and have strenuously resisted every attempt by the Department for the Regulation and Control of Magical Creatures to capture a specimen and try to Untransfigure it, so we must assume that if they are indeed, as their nickname suggests, Hairy MacBoons, they are quite happy to live out their days as beasts.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

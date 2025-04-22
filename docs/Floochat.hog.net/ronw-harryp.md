@@ -9,3 +9,5 @@
 <harryp\> probably not :|  
 <ronw\> alright mate, feel better!  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

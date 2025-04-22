@@ -12,3 +12,5 @@ The following recipe can be followed to brew this potion:
 6. Mix Armadillo Bile until the potion is purple.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

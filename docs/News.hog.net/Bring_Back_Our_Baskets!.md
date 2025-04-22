@@ -5,3 +5,5 @@
 *At this point, the Departmental representative was forced to retreat under a hail of baskets thrown by the angry demonstrators assembled in the hall. Although the ensuing riot was later blamed on goblin agitators, there can be no doubt that Quidditch fans across Britain are tonight mourning the end of the game as we know it.*  
 *" 'T won't be t' same wi'out baskets," said one apple-cheeked old wizard sadly. "I remember when I were a lad, we used to set fire to 'em for a laugh during t' match. You can't do that with goal hoops. 'Alf t' fun's gone."*  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

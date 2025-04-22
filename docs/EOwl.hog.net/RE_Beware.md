@@ -30,3 +30,5 @@ I therefore beg that you avoid brooms in the future at all costs!
 All the best,  
 Sybill  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

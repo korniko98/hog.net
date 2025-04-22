@@ -7,3 +7,5 @@ The centaur is forest-dwelling. Centaurs are believed to have originated in Gree
   
 The ways of the centaur are shrouded in mystery. They are generally speaking as mistrustful of wizards as they are of Muggles and indeed seem to make little differentiation between us. They live in herds ranging in size from ten to fifty members. They are reputed to be well versed in magical healing, divination, archery and astronomy.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

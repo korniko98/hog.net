@@ -18,3 +18,5 @@
 <lavenderb\> i suppose...  
 <lavenderb\> you might want to ask parvati as well  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

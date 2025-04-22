@@ -15,3 +15,5 @@
 <dracom\> WORDS OF PRAISE FOR FISHFOOD  
 <minervam\> ACKNOWLEDGEMENT AND ACCEPTENCE OF TERMS  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -33,3 +33,5 @@
 <pansyp\> Coming.  
 <seamusf\> seeya in a bit.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -6,3 +6,5 @@
 <ginervaw\> why would my shoes be in the library?  
 <hannahh\> not your shoes, a spell, silly!  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

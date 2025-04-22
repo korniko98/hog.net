@@ -20,3 +20,5 @@ To brew the Sleeping Draught, follow these steps:
 14. Wave your wand to complete the potion.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

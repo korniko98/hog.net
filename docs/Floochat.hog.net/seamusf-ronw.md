@@ -10,3 +10,5 @@
 <seamusf\> well, whatever i did, i guess i deserved it  
 <ronw\> let that possibly be a lesson to you.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

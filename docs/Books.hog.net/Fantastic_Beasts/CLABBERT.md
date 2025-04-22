@@ -5,3 +5,5 @@ The Clabbert is a tree-dwelling creature, in appearance something like a cross b
   
 The Clabbert’s most distinctive feature is the large pustule in the middle of its forehead, which turns scarlet and flashes when it senses danger. American wizards once kept Clabberts in their gardens to give early warning of approaching Muggles, but the International Confederation of Wizards has introduced fines which have largely ended this practice. The sight of a tree at night full of glowing Clabbert pustules, while decorative, attracted too many Muggles wishing to ask why their neighbours still had their Christmas lights up in June.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

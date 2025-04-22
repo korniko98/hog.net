@@ -237,3 +237,5 @@
 <ronw\> What time?  
 <lunal\> 20:00  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

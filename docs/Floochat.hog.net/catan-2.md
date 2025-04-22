@@ -162,3 +162,5 @@
 <ginervaw\> got no weat, sorry  
 <Server\> ginervaw rolled a 5 and a 6.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

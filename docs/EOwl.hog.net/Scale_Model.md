@@ -16,3 +16,4 @@ I hope it is to your liking!
 ![3](/hog.net/img/3.jpg)
 ![4](/hog.net/img/4.jpg)
 ![5](/hog.net/img/5.jpg)
+<meta name="robots" content="noindex, noarchive, nofollow">

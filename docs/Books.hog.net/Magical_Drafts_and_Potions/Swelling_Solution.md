@@ -19,3 +19,5 @@ To brew the Swelling Solution, follow these steps:
 13. Wave your wand to complete the potion  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

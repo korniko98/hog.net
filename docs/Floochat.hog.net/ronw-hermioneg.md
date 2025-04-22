@@ -9,3 +9,5 @@
 <hermioneg\> on your own  
 <hermioneg\> like you're supposed to  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

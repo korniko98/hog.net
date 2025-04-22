@@ -29,3 +29,5 @@
 <hermioneg\> that sounds awefully familiar but i can't place it, sorry  
 <lunal\> oh well...  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

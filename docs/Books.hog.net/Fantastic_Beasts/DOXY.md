@@ -7,3 +7,5 @@ The Doxy is often mistaken for a fairy though it is a quite separate species. Li
   
 Doxys have double rows of sharp, venomous teeth. An antidote should be taken if bitten.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

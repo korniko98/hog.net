@@ -25,3 +25,5 @@ The instructions for brewing the Wiggenweld Potion are thus:
 19. Take the potion away from the heat and allow it to cool, when it is cool its ready for use.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

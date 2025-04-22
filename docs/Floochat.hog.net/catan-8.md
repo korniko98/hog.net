@@ -583,3 +583,5 @@
 <lunal\> bye!  
 <lunal\> me too bye :)  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

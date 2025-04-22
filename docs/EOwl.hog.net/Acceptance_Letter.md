@@ -19,3 +19,5 @@ Nigerian Wizarding Bank
 Prof. Olumide Okojie,  
 Headmaster  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

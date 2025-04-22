@@ -12,3 +12,5 @@ Breaking into faculty offices is obviously unacceptable behavior and I request y
   
 -Severus  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

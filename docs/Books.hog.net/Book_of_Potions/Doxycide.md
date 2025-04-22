@@ -14,3 +14,5 @@ Brewing Instructions:
 8. Wave your wand over the cauldron to finish the potion.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

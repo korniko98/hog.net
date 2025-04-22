@@ -8,3 +8,5 @@
 <nevillel\> thanks  
 <harryp\> sure thing  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

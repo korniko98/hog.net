@@ -19,3 +19,5 @@
 <argusf\> dobby, have you been eating her food???  
 <dobby\> dobby has no idea what mr. finch is talking about  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

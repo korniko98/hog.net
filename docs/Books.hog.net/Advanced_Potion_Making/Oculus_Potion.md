@@ -21,3 +21,5 @@ The following recipe can be used to successfully make the Oculus Potion:
 13. Shake and add the stewed mandrake until the potion turns orange.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -9,3 +9,5 @@
 <harryp\> he nearly tripped, and just left them there so he could get to their next class on time  
 <cormacm\> typical...  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

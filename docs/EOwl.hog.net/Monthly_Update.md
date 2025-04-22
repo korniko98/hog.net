@@ -19,3 +19,5 @@ Following up on last month’s update, these items should be of interest to you 
 Regards,  
 Madam Pince  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

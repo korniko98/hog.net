@@ -29,3 +29,5 @@
 <ronw\> might be near that building somewhere, whatever it is  
 <ronw\> i guess i'll go look around tomorrow morning before class...  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

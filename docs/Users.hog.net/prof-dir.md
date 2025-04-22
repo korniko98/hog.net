@@ -22,3 +22,5 @@
 | silvanusk  | Silvanus   | Kettleburn   | Creature Care (retired) |  
 | sybillt    | Sybill     | Trelawney    | Divination              |  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

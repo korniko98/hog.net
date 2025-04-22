@@ -10,3 +10,5 @@ For our upcoming practical lesson on Wiggentrees, please read chapters five thro
   
 - Prof. Sprout  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

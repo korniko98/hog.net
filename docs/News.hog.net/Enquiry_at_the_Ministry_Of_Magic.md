@@ -4,3 +4,5 @@
 *Mr Lucius Malfoy, a governor of Hogwarts School of Witchcraft and Wizardry, where the enchanted car crashed earlier this year, called today for Mr Weasley's resignation. "Weasley has brought the Ministry into disrepute," Mr Malfoy told our reporter. "He is clearly unfit to draw up our laws and his ridiculous Muggle Protection Act should be scrapped immediately."*  
 *Mr Weasley was unavailable for comment, although his wife told reporters to clear off or she'd set the family ghoul on them.*  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

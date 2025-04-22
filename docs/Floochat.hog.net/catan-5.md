@@ -248,3 +248,5 @@
 <lavenderb\> need my sheep sry  
 <nevillel\> no worries!  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

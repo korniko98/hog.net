@@ -8,3 +8,5 @@ To brew the Befuddlement Draught, follow these steps:
 2. Stir clockwise (1x).  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -14,3 +14,5 @@
 <harryp\> alright i'll figure something out i guess  
 <harryp\> maybe there's a magical solution  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

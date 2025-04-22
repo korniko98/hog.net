@@ -15,3 +15,5 @@ To brew the Felix Felicis, follow these steps:
 9. Wave wand over potion in a figure of eight and say incantation ‘Felixempra!’  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

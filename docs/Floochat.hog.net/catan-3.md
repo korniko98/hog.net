@@ -217,3 +217,5 @@
 <lunal\> ore?  
 <lunal\> :D  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

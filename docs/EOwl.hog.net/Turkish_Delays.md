@@ -13,3 +13,5 @@ Please be advised that Turkish Blend coffee beans (item code #5896) will not be 
 P.S. might I once again remind the ghosts that the kitchen coffee machines are for the use of kitchen staff only -  
 you are however free to use the espresso machines in the great hall or the teacher's lounge as you please.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

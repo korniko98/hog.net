@@ -5,3 +5,5 @@ The Mooncalf is an intensely shy creature that emerges from its burrow only at t
   
 Watching Mooncalves dance by moonlight is a fascinating experience and often profitable, for if their silvery dung is collected before the sun rises and spread upon magical herb and flower beds, the plants will grow very fast and become extremely strong. Mooncalves are found worldwide.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

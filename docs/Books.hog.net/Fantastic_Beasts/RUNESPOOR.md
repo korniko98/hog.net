@@ -7,3 +7,5 @@ The Runespoor, though not in itself a particularly vicious beast, was once a fav
   
 The Runespoor produces eggs through its mouths, the only known magical beast so to do. These eggs are of immense value in the production of potions to stimulate mental agility. A black market in Runespoor eggs and in the serpents themselves has flourished for several centuries.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

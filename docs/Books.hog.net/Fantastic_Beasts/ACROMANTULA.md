@@ -7,3 +7,5 @@ This beast is believed to be wizard-bred, possibly intended to guard wizard dwel
   
 Rumours that a colony of Acromantula has been established in Scotland are unconfirmed.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

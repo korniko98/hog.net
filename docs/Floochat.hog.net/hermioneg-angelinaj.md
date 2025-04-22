@@ -20,3 +20,5 @@
 <hermioneg\> thank you so much  
 <angelinaj\> no problem, always glad to help a fellow tech-head :)  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

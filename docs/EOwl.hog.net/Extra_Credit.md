@@ -19,3 +19,5 @@ I hope you find this to be a sufficiently challenging research project.
 Good Luck!  
 Prof. Babbage  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

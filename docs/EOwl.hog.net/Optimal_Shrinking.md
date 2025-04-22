@@ -13,3 +13,5 @@ We were wondering how best to compare the efficiacy of these two methods, and we
 Thank you in advance,  
 Hermione Granger  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

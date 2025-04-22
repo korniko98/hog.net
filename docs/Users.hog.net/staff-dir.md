@@ -11,3 +11,5 @@
 | winky     | Winky      |             | Kitchen Elf             |  
 | idas      | Ida        | Silverling  | IT Manager              |  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

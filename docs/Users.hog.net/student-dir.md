@@ -32,3 +32,5 @@
 | colinc    | Colin      | Creevey     | Gryffindor | 1992         |  
 | ginervaw  | Ginevra    | Weasley     | Gryffindor | 1992         |  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

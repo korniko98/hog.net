@@ -19,3 +19,5 @@ The following recipe can be used to successfully make the Girding Potion:
 13. Heat until the potion turns green.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

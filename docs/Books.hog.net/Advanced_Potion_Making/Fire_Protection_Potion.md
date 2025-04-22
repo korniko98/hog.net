@@ -9,3 +9,5 @@ To brew the Fire Protection Potion, follow these steps:
 3. Crush Wartcap powder in pestle, add to cauldron and stir clockwise until potion turns red.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

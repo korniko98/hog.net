@@ -16,3 +16,5 @@
 <ronw\> oiuyniyu98h987h89yh87y98yjn987j987y897yhkiuk  
 <ronw\> sorry... there was a spider on my keyboard  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

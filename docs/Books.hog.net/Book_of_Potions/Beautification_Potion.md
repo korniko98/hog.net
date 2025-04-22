@@ -13,3 +13,5 @@ To brew the Beautification Potion, follow these steps:
 8. Lastly, wave your wand over the cauldron to finish the potion.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

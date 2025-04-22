@@ -7,3 +7,5 @@
 <nevillel\> wait  
 <nevillel\> never mind  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

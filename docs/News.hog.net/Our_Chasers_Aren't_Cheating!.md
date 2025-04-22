@@ -6,3 +6,5 @@
 *One freckle-faced six-year-old left the hall in tears.*  
 *"I loved stooging," he sobbed to the Daily Prophet. "Me and me dad like watching them Keepers flattened. I don't want to go to Quidditch no more."*  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

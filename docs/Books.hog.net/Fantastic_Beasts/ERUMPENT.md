@@ -7,3 +7,5 @@ The Erumpent will not attack unless sorely provoked, but should it charge, the r
   
 Erumpent numbers are not great, as males frequently explode each other during the mating season. They are treated with great caution by African wizards. Erumpent horns, tails and the Exploding Fluid are all used in potions, though classified as Class B Tradeable Materials (Dangerous and Subject to Strict Control).  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -16,3 +16,5 @@
 <poppyp\> yes, at four as usual?  
 <pomonas\> yes, splendid  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

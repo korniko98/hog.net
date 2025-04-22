@@ -10,3 +10,5 @@ Prior to our upcoming visit to Hogsmeade, please drop by my office sometime tomo
   
 -Prof. McGonagall  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

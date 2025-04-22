@@ -7,3 +7,5 @@ Merpeople exist throughout the world, though they vary in appearance almost as m
   
 The oldest recorded merpeople were known as sirens (Greece) and it is in warmer waters that we find the beautiful mermaids so frequently depicted in Muggle literature and painting. The selkies of Scotland and the merrows of Ireland are less beautiful, but they share that love of music which is common to all merpeople.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

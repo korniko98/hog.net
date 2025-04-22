@@ -54,3 +54,5 @@ Werewolves generally reproduce by attacking non-werewolves. The stigma surroundi
   
 One curious feature of the condition is that if two werewolves meet and mate at the full moon (a highly unlikely contingency which is known to have occurred only twice) the result of the mating will be wolf cubs which resemble true wolves in everything except their abnormally high intelligence. They are not more aggressive than normal wolves and do not single out humans for attack. Such a litter was once set free, under conditions of extreme secrecy, in the Forbidden Forest at Hogwarts, with the kind permission of Albus Dumbledore. The cubs grew into beautiful and unusually intelligent wolves and some of them live there still, which has given rise to the stories about ‘werewolves’ in the Forest – stories none of the teachers, or the gamekeeper, has done much to dispel because keeping students out of the Forest is, in their view, highly desirable.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

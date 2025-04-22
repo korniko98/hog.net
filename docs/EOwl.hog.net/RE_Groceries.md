@@ -67,3 +67,5 @@ Here's my grocery list for this week:
   
 Thanks  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

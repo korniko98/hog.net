@@ -187,3 +187,5 @@
 <gregoryg\> cheers all, see you next time  
 <hermioneg\> see you :)  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

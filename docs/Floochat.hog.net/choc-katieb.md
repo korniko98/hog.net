@@ -23,3 +23,5 @@
 <choc\> anyway, see you later!  
 <katieb\> well bon appetit i guess  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

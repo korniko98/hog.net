@@ -5,3 +5,5 @@ The salamander is a small fire-dwelling lizard that feeds on flame. Brilliant wh
   
 Salamanders can survive up to six hours outside a fire if regularly fed pepper. They will live only as long as the fire from which they sprang burns. Salamander blood has powerful curative and restorative properties.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -17,3 +17,5 @@
 <ronw\> er, I just copy pasted YOUR \*\*\*\*\*\*'s and it appears to YOU as hunter2 cause its your pw  
 <gregoryg\> oh, ok  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

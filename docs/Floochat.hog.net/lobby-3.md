@@ -5,3 +5,5 @@
 <harryp\> SSSSS  
 <lavenderb\> the programming language  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

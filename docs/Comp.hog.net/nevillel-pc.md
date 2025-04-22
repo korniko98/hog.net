@@ -25,3 +25,5 @@ Gryffindor house is home to Nearly Headless Nick, who in life was Sir Nicholas d
   
 Another notable Hogwarts ghost is Moaning Myrtle, who haunts an unpopular girls’ toilet. Myrtle was a student at Hogwarts when she died, and she chose to return to school in perpetuity, with the short-term aim of haunting her arch-rival and bully, Olive Hornby. As the decades have rolled by, Myrtle has made a name for herself as the most miserable ghost in school, usually to be found lurking inside one of the toilets and filling the tiled space with her moans and howls.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

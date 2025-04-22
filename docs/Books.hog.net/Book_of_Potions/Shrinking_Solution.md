@@ -20,3 +20,5 @@ The instructions for brewing the Shrinking Solution are thus:
 14. Cast the Shrinking Charm.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

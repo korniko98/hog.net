@@ -149,3 +149,5 @@
 <Server\> hermioneg rolled a 5 and a 4.  
 <Server\> gregoryg gets 1 ore.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

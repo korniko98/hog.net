@@ -10,3 +10,5 @@ Following our last lesson, please hand in an essay (four inches of parchment) co
   
 -Prof. Flitwick  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

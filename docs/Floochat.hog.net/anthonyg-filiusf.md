@@ -22,3 +22,5 @@
 <anthonyg\> Nothing Professor  
 <filiusf\> lovely  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

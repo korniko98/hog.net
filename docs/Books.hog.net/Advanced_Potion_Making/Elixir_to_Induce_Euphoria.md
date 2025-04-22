@@ -13,3 +13,5 @@ To brew this potion, follow these steps:
 7. Stir six times anti-clockwise  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -28,3 +28,5 @@
 <hermioneg\> no problem, colin  
 <hermioneg\> hope you feel better  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

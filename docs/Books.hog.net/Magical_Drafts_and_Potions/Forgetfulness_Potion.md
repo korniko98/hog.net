@@ -18,3 +18,5 @@ To brew the Forgetfulness Potion, follow these steps:
 12. Wave your wand to complete the potion.  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

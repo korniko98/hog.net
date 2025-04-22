@@ -17,3 +17,5 @@
 <lunal\> he was talking to himself and looked awefully suspicious  
 <harryp\> draco always looks suspicious...  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

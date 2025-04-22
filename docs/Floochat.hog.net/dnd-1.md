@@ -30,3 +30,5 @@
 <harryp\> The answer, ronw, is that powers are not a mystery to some, at all.  
 <ronw\> /follows harryp back inside.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

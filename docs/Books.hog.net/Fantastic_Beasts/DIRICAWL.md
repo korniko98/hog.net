@@ -5,3 +5,5 @@ The Diricawl originated in Mauritius. A plump-bodied, very round, fluffy-feather
   
 Interestingly, Muggles were once fully aware of the existence of the Diricawl, though they knew it by the name of ‘dodo’. Unaware that the Diricawl could vanish at will, Muggles believe they have hunted the species to extinction. As this seems to have raised Muggle awareness of the dangers of slaying their fellow creatures indiscriminately, the International Confederation of Wizards has never deemed it appropriate that the Muggles should be made aware of the continued existence of the Diricawl.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

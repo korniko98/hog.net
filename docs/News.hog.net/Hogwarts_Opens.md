@@ -5,3 +5,5 @@
 *School faculty Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin await the arrival of the very first first-years.*  
   
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

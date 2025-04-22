@@ -5,3 +5,5 @@
 <harryp\> maybe set up some kind of deterrent  
 <harryp\> for example, put some sort of fierce animal in the cage, which would attack anybody who climbed in  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

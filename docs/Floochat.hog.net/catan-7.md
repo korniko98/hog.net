@@ -134,3 +134,5 @@
 <nevillel\> seamus - we're at a new table  
 <nevillel\> join us :D  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

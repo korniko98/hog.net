@@ -100,3 +100,5 @@ Most wands will be in the range of between nine and fourteen inches. While I hav
   
 Wand flexibility or rigidity denotes the degree of adaptability and willingness to change possessed by the wand-and-owner pair – although, again, this factor ought not to be considered separately from the wand wood, core and length, nor of the owner’s life experience and style of magic, all of which will combine to make the wand in question unique.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -17,3 +17,5 @@ Almost at once I felt fresh air upon my face. I looked up to see that deathly sh
   
 As Belby so dramatically reveals, the Patronus is the only spell known to repel the Lethifold. Since it generally attacks the sleeping, though, its victims rarely have a chance to use any magic against it. Once its prey has been successfully suffocated, the Lethifold digests its food there and then in their bed. It then exits the house slightly thicker and fatter than before, leaving no trace of itself or its victim behind.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

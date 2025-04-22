@@ -5,3 +5,5 @@
 *‘We are very pleased that the Americans have returned our beloved mascot,’ said Minister Otto Obermeier. ‘Magizoologists are currently keeping Hans under close observation for ill effects. If any are discovered we will of course lobby the ICWQC for the USA's immediate disqualification from the World Cup.’*  
 *A harried ICWQC official responded: ‘Look, we've had to perform mass Memory Charms on about 2000 Muggles living on the edge of the desert after the American celebrations last night, and don't get me started on the planes. I'm not telling the Americans they're going home. Not doing it. Just feed the bird some fairies and leave me alone.’*  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

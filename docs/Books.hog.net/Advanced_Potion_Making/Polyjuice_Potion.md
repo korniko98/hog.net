@@ -24,3 +24,5 @@ The recipe to make the Polyjuice Potion is as follows:
   
 Note: Lacewing flies must be stewed for twenty-one days prior to making the potion.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

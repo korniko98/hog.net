@@ -8,3 +8,5 @@
 <ginervaw\> she knows her stuff  
 <colinc\> i'll think about it...  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

@@ -16,3 +16,5 @@
 <rubeush\> It\*\*\*  
 <rubeush\> ruddy keyboard.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

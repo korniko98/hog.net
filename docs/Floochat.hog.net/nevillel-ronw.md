@@ -7,3 +7,5 @@
 <ronw\> then he stopped and all the other ducks went mental  
 <ronw\> it looked just like duck stand-up comedy  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">

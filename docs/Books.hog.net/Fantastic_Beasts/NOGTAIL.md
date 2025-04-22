@@ -5,3 +5,5 @@ Nogtails are demons found in rural areas right across Europe, Russia and America
   
 The Nogtail is exceptionally fast and difficult to catch, though if chased beyond the boundaries of a farm by a pure white dog, it will never return. The Department for the Regulation and Control of Magical Creatures (Pest Sub-Division) keeps a dozen albino bloodhounds for this purpose.  
   
+
+<meta name="robots" content="noindex, noarchive, nofollow">
