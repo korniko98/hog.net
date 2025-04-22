@@ -91,3 +91,21 @@ Some items in this database are based on material from the following sources:
 * [Phenomenalia](https://www.etsy.com/shop/Phenomenalia/)
 * [The STAC dataset](https://www.irit.fr/STAC/corpus.html)
 * ["The Red Hand of Doom" playthrough by Adam Bunnell](https://redhandofdoomnarrative.blogspot.com/)
+
+<meta name="title" content="hog.net">
+<meta name="description" content="a &quot;Harry Potter&quot; themed querying exercise">
+<meta property="og:title" content="hog.net" />
+<meta property="og:url" content="https://korniko98.github.io/hog.net/">
+<meta property="og:description" content="a &quot;Harry Potter&quot; themed querying exercise" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="hog.net" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:author" content="Amitai Cohen" />
+<meta property="og:image" content="/hog.net/img/preview.jpg" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://korniko98.github.io/hog.net/">
+<meta property="twitter:creator" content="Amitai Cohen" />
+<meta property="twitter:site" content="korniko98.github.io/hog.net/" />
+<meta property="twitter:title" content="hog.net" />
+<meta property="twitter:description" content="a &quot;Harry Potter&quot; themed querying exercise" />
+<meta property="twitter:image" content="/hog.net/img/preview.jpg" />
