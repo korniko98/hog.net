@@ -11,9 +11,9 @@ I hope it is to your liking!
   
 -Prof. Flitwick  
   
-![1](/hog.net/img/1.jpg)
-![2](/hog.net/img/2.jpg)
-![3](/hog.net/img/3.jpg)
-![4](/hog.net/img/4.jpg)
-![5](/hog.net/img/5.jpg)
+![1](/img/1.jpg)
+![2](/img/2.jpg)
+![3](/img/3.jpg)
+![4](/img/4.jpg)
+![5](/img/5.jpg)
 <meta name="robots" content="noindex, noarchive, nofollow">
