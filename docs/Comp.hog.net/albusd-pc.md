@@ -14,7 +14,7 @@ The following have proven to be my favorite snacks over the years:
 ### SchoolLayout.ppt  
 Map of the grounds and the various school buildings.  
   
-![school map](/hog.net/img/map.jpg)
+![school map](/img/map.jpg)
 
 ## Downloads
 
