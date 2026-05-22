@@ -34,7 +34,7 @@ When writing your solutions, be sure to include references in footnotes and use 
 
 What is Dumbledore’s favorite snack?
 ??? success "Reveal solution"
-    ![q0](/hog.net/img/q0.svg)
+    ![q0](/img/q0.svg)
 
 ### Technical Instructions
 
@@ -51,35 +51,35 @@ What is Dumbledore’s favorite snack?
 ### Question #1
 What passed by Gryffindor tower?
 ??? success "Reveal solution"
-	![q1](/hog.net/img/q1.svg)
+	![q1](/img/q1.svg)
 ### Question #2
 What type of coffee does Hagrid prefer?
 ??? success "Reveal solution"
-	![q2](/hog.net/img/q2.svg)
+	![q2](/img/q2.svg)
 ### Question #3
 Where is Ron's lost wand?
 ??? hint "Need a hint?"
-	![h3](/hog.net/img/h3.svg)
+	![h3](/img/h3.svg)
 ??? success "Reveal solution"
-	![q3](/hog.net/img/q3.svg)
+	![q3](/img/q3.svg)
 ### Question #4
 Complete Hermione’s essay on Muggle Studies (include it in your solution in its entirety).
 ??? hint "Need a hint?"
-	![h4](/hog.net/img/h4.svg)
+	![h4](/img/h4.svg)
 ??? success "Reveal solution"
-	![q4](/hog.net/img/q4.svg)
+	![q4](/img/q4.svg)
 ### Question #5
 Who broke into a professor's office, and why?
 ??? hint "Need a hint?"
-	![h5](/hog.net/img/h5.svg)
+	![h5](/img/h5.svg)
 ??? success "Reveal solution"
-	![q5](/hog.net/img/q5.svg)
+	![q5](/img/q5.svg)
 ### Question #6
 Who was walking about barefoot throughout the school, and why?
 ??? hint "Need a hint?"
-	![h6](/hog.net/img/h6.svg)
+	![h6](/img/h6.svg)
 ??? success "Reveal solution"
-	![q6](/hog.net/img/q6.svg)
+	![q6](/img/q6.svg)
 
 ## Sources
 
@@ -101,11 +101,11 @@ Some items in this database are based on material from the following sources:
 <meta property="og:site_name" content="hog.net" />
 <meta property="og:locale" content="en_US" />
 <meta property="article:author" content="Amitai Cohen" />
-<meta property="og:image" content="/hog.net/img/preview.jpg" />
+<meta property="og:image" content="/img/preview.jpg" />
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content="https://korniko98.github.io/hog.net/">
 <meta property="twitter:creator" content="Amitai Cohen" />
 <meta property="twitter:site" content="korniko98.github.io/hog.net/" />
 <meta property="twitter:title" content="hog.net" />
 <meta property="twitter:description" content="a &quot;Harry Potter&quot; themed querying exercise" />
-<meta property="twitter:image" content="/hog.net/img/preview.jpg" />
+<meta property="twitter:image" content="/img/preview.jpg" />
