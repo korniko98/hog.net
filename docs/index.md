@@ -1,7 +1,7 @@
 # User Guide
 
 <p style="text-align:center;">
-<img src="/hog.net/img/banner.png" width="250">
+<img src="/img/banner.png" width="250">
 </p>
 
 ## Introduction
